@@ -14,7 +14,8 @@ export default function Footer() {
             The Next Worth
           </h2>
           <p className="text-gray-400 text-sm sm:text-base leading-relaxed">
-            Join a transformative webinar designed to help you unlock remote work potential, gain practical skills, and achieve real financial independence — no prior experience needed.
+            Join us for a transformative webinar crafted to help you unlock the true power of remote work.
+Whether you're just starting out or looking for a breakthrough, this session will equip you with practical digital skills and strategies to achieve real financial independence — no prior experience required.
           </p>
         </div>
 
@@ -58,7 +59,7 @@ export default function Footer() {
 
       {/* Bottom bar */}
       <div className="mt-10 border-t border-gray-700 pt-4 text-center text-sm text-gray-500">
-        © {new Date().getFullYear()} The Next Worth. All rights reserved.
+        © {new Date().getFullYear()}  All rights reserved.
       </div>
     </footer>
   );

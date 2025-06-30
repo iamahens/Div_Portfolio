@@ -3,6 +3,8 @@ import { ChevronDown, User, Users, Target, Lightbulb } from 'lucide-react';
 import Gallerysection from './components/Gallerysection'; // Assuming these components exist
 import Testimonial from './components/Testimonial'; // Assuming these components exist
 import Footer from './components/Footer'; // Assuming this component exists
+import MarqueeBanner from './components/MarqueeBanner';
+import WhatYouWillLearn from './components/WhatYouWillLearn'; // Assuming this component exists
 
 function GallerySection() {
   const images = [
@@ -157,8 +159,11 @@ export default function Home() {
       </header>
 
       {/* Hero Section */}
+      
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-gray-900 via-purple-900/20 to-pink-900/20"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-gray-900 via-purple-900/20 to-pink-900/20">
+          < MarqueeBanner />
+        </div>
         <div className="absolute inset-0">
           <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-purple-500/20 rounded-full blur-3xl animate-pulse"></div>
           <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-pink-500/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
@@ -253,6 +258,7 @@ export default function Home() {
   </div>
 </section>
 
+<WhatYouWillLearn />
 
       {/* Video Section */}
       <section className="py-16 bg-black relative overflow-hidden">
@@ -375,27 +381,28 @@ export default function Home() {
       <div className="flex-1 text-center lg:text-left">
         <h3 className="text-3xl sm:text-4xl font-bold mb-4">
           <span className="text-transparent bg-gradient-to-r from-pink-400 via-purple-400 to-blue-400 bg-clip-text">
-            AMAN BAISLA
+            Divyanshu Verma
           </span>
         </h3>
 
         <p className="text-base sm:text-lg text-gray-300 mb-4 leading-relaxed">
-          <span className="font-semibold text-white">Aman Baisla</span> is an internet personality and <span className="font-semibold text-white">entrepreneur</span>, making consistent income monthly through <span className="font-semibold text-white">multiple businesses</span>. By the <span className="font-semibold text-white">age of 20</span>, he had helped <span className="font-semibold text-white">thousands</span> find financial independence through real skills.
+          <span className="font-semibold text-white"> Divyanshu Verma</span> is an internet personality and <span className="font-semibold text-white">skill growth expert</span>, known for building multiple successful income streams<span className="font-semibold text-white"> and achieving consistent monthly earnings at a young age
+</span>. By the <span className="font-semibold text-white">age of 20</span>, he had already empowered over <span className="font-semibold text-white">1,000 </span> students to start earning online and take control of their financial future.
         </p>
         <p className="text-base sm:text-lg text-gray-400 leading-relaxed mb-4">
-          After facing the failures of traditional education and recycled advice, Aman built <span className="font-semibold text-white">THE NEXT WORTH</span> — a platform to deliver <span className="text-cyan-300 font-semibold">practical skills that generate real results</span>.
+           In just 10 months he generated <span className="font-semibold text-white"> ₹2.5 million in revenue</span> — all by sharing real, <span className="text-cyan-300 font-semibold">practical skills that deliver results</span>.
         </p>
         <p className="text-base sm:text-lg text-gray-400 leading-relaxed">
-          This is not theory. It’s lived experience. <span className="text-white font-semibold">Raw. Real. Effective.</span> That’s what you’ll get.
+          This is not about theories or empty promises. <span className="text-white font-semibold">t’s about raw experience, proven strategies, and results that speak for themselves.</span> That’s what Divyanshu delivers — raw, real, and truly effective.
         </p>
 
         {/* Badges */}
         <div className="mt-8 flex flex-wrap gap-3 justify-center lg:justify-start">
           <span className="bg-purple-600/20 text-purple-300 px-4 py-2 rounded-full text-sm font-medium">
-            Built 5+ Brands
+           Earn 2.5 Million in 10 Months
           </span>
           <span className="bg-pink-600/20 text-pink-300 px-4 py-2 rounded-full text-sm font-medium">
-            20,000+ Lives Impacted
+            100+ Lives Impacted
           </span>
           <span className="bg-blue-600/20 text-blue-300 px-4 py-2 rounded-full text-sm font-medium">
             Remote Work Expert
@@ -405,6 +412,62 @@ export default function Home() {
     </div>
   </div>
 </section>
+
+{/* Achievements */}
+
+<section className="py-12 relative bg-gray-800 border-y border-gray-700 overflow-hidden">
+  {/* Radial glow background */}
+  <div
+    className="absolute -top-32 left-1/2 -translate-x-1/2 w-[600px] h-[600px] rounded-full blur-3xl opacity-30 z-0 pointer-events-none"
+    style={{
+      background:
+        'radial-gradient(circle, rgba(236,72,153,0.6), rgba(168,85,247,0.3), transparent)',
+    }}
+  ></div>
+
+  {/* Tint gradient overlay */}
+  <div className="absolute inset-0 bg-gradient-to-r from-pink-500/5 via-purple-500/5 to-blue-500/5 z-0"></div>
+
+  <div className="container mx-auto px-4 relative z-10 max-w-7xl">
+    {/* Section Title */}
+    <div className="text-center mb-12">
+      <h2 className="text-3xl sm:text-4xl font-bold text-white">My Achievements</h2>
+      <p className="text-gray-300 mt-2 max-w-xl mx-auto">
+        Celebrating milestones and the incredible journey we’ve had so far.
+      </p>
+    </div>
+
+    {/* Achievement Cards */}
+    <div className="flex flex-col sm:flex-row justify-center items-center gap-8">
+      {/* Image 1 + Text */}
+      <div className="bg-gray-900/40 p-6 rounded-2xl text-center shadow-lg max-w-sm">
+        <img
+          src="public/achievement/achievement1.png"
+          alt="Achievement 1"
+          className="mx-auto mb-4 rounded-xl"
+        />
+        <h3 className="text-xl text-white font-semibold mb-2">Achieved ₹5 lakh Milestone</h3>
+        <p className="text-gray-400 text-sm">
+    Earned ₹5 lakh through iDigitalPreneur using trending digital skills and social media marketing.
+        </p>
+      </div>
+
+      {/* Image 2 + Text */}
+      <div className="bg-gray-900/40 p-6 rounded-2xl text-center shadow-lg max-w-sm">
+        <img
+          src="public/achievement/achievement2.png"
+          alt="Achievement 2"
+          className="mx-auto mb-4 rounded-xl"
+        />
+        <h3 className="text-xl text-white font-semibold mb-2">Crossed ₹10 Lakh & Earned Awards</h3>
+        <p className="text-gray-400 text-sm">
+          Recognized for consistent efforts and leadership in the digital marketing space through iDigitalPreneur.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
 
 
       {/* Testimonials */}
