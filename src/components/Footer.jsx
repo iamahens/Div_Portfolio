@@ -11,7 +11,7 @@ export default function Footer() {
         {/* Left: Description */}
         <div className="space-y-4 max-w-lg">
           <h2 className="text-2xl sm:text-3xl font-bold bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 text-transparent bg-clip-text">
-            The Next Worth
+            Work From Home Strategies
           </h2>
           <p className="text-gray-400 text-sm sm:text-base leading-relaxed">
             Join us for a transformative webinar crafted to help you unlock the true power of remote work.
@@ -24,21 +24,14 @@ Whether you're just starting out or looking for a breakthrough, this session wil
           <h3 className="text-lg font-semibold text-gray-200">Follow Us</h3>
           <div className="flex gap-4 justify-center md:justify-start">
             <a
-              href="https://instagram.com"
+              href="https://www.instagram.com/hustlewithdivyanshu?igsh=MWZnZWRscTFmYzlzcw%3D%3D&utm_source=qr"
               target="_blank"
               rel="noopener noreferrer"
               className="text-pink-500 hover:text-pink-400 transition text-xl"
             >
               <FaInstagram />
             </a>
-            <a
-              href="https://linkedin.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-blue-500 hover:text-blue-400 transition text-xl"
-            >
-              <FaLinkedin />
-            </a>
+            
             <a
               href="https://youtube.com"
               target="_blank"

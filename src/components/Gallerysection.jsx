@@ -1,14 +1,16 @@
 import React from "react";
 
 const imageUrls = [
-  "/galleryImages/gallery1.png",
-  "/galleryImages/gallery2.png",
-  "/galleryImages/gallery3.png",
-  "/galleryImages/gallery4.png",
-  "/galleryImages/gallery5.png",
-  "/galleryImages/gallery6.png",
-  "/galleryImages/gallery7.png",
-  "/galleryImages/gallery8.png",
+  "/gallery1.png",
+  "/gallery2.jpg",
+  "/gallery3.png",
+  "/gallery4.jpg",
+  "/gallery7.jpg",
+  "/gallery8.jpg",
+  "/gallery5.jpg",
+  "/gallery6.jpg",
+  "/gallery9.jpg",
+  "/gallery10.jpg",
 ];
 
 export default function Gallerysection() {

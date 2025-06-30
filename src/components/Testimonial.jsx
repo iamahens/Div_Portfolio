@@ -7,42 +7,42 @@ const Testimonial = () => {
   const testimonials = [
     {
       id: 1,
-      image: "/public/image1.jpg", // Add your first image URL here
+      image: "/image1.jpg", // Add your first image URL here
       alt: "Client testimonial 1"
     },
     {
       id: 2,
-      image: "/public/image2.jpg", // Add your second image URL here
+      image: "/image2.jpg", // Add your second image URL here
       alt: "Client testimonial 2"
     },
     {
       id: 3,
-      image: "/public/image3.jpg", // Add your third image URL here
+      image: "/image3.jpg", // Add your third image URL here
       alt: "Client testimonial 3"
     },
     {
       id: 4,
-      image: "/public/image4.jpg", // Add your fourth image URL here
+      image: "/image4.jpg", // Add your fourth image URL here
       alt: "Client testimonial 4"
     },
     {
       id: 5,
-      image: "/public/image5.jpg", // Add your fifth image URL here
+      image: "/image5.jpg", // Add your fifth image URL here
       alt: "Client testimonial 5"
     },
     {
       id: 6,
-      image: "/public/image6.jpg", // Add your sixth image URL here
+      image: "/image6.jpg", // Add your sixth image URL here
       alt: "Client testimonial 6"
     },
     {
       id: 7,
-      image: "/public/image7.jpg", // Add your seventh image URL here
+      image: "/image7.jpg", // Add your seventh image URL here
       alt: "Client testimonial 7"
     },
     {
       id: 8,
-      image: "/public/image8.jpg", // Add your eighth image URL here
+      image: "/image8.jpg", // Add your eighth image URL here
       alt: "Client testimonial 8"
     }
   ];

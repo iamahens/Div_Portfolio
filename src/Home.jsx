@@ -127,15 +127,19 @@ export default function Home() {
       <header className="backdrop-blur-md bg-gray-900/95 py-4 shadow-lg border-b border-gray-700 sticky top-0 z-50">
         <div className="container mx-auto px-4 flex justify-between items-center max-w-7xl">
           <div className="text-xl sm:text-2xl font-extrabold bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 text-transparent bg-clip-text">
-            Remote Work Strategies
+             Work From Home Strategies
           </div>
 
           <nav className="hidden lg:flex space-x-6 items-center">
-            <a href="#learn" className="text-gray-300 hover:text-cyan-400 transition-colors duration-300"> {/* Changed to cyan-400 */}
+            <a href="#what-you-will-learn" className="text-gray-300 hover:text-cyan-400 transition-colors duration-300"> {/* Changed to cyan-400 */}
               What You'll Learn
             </a>
-            <a href="#mentor" className="text-gray-300 hover:text-cyan-400 transition-colors duration-300"> {/* Changed to cyan-400 */}
-              Mentor
+             <a href="#mentor" className="text-gray-300 hover:text-cyan-400 transition-colors duration-300"> {/* Changed to cyan-400 */}
+              About
+            </a>
+           
+             <a href="#achievements" className="text-gray-300 hover:text-cyan-400 transition-colors duration-300"> {/* Changed to cyan-400 */}
+              Achievements
             </a>
             <a href="#testimonials" className="text-gray-300 hover:text-cyan-400 transition-colors duration-300"> {/* Changed to cyan-400 */}
               Testimonials
@@ -161,57 +165,73 @@ export default function Home() {
       {/* Hero Section */}
       
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-gray-900 via-purple-900/20 to-pink-900/20">
-          < MarqueeBanner />
-        </div>
-        <div className="absolute inset-0">
-          <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-purple-500/20 rounded-full blur-3xl animate-pulse"></div>
-          <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-pink-500/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
-        </div>
-
-        <div className="relative z-10 container mx-auto px-4 max-w-7xl">
-          <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
-            <div className="flex-1 text-center lg:text-left">
-              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
-                Unlock Your Potential with Our
-                <span className="bg-gradient-to-r from-pink-400 to-purple-400 text-transparent bg-clip-text"> Exclusive Webinar</span>
-              </h1>
-              <p className="text-gray-300 text-lg sm:text-xl mb-8 max-w-2xl">
-                Join industry experts for an immersive experience designed to elevate your skills and transform your career trajectory.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-                <a href="https://wa.me/917007882824?text=Hi!%20I'm%20interested%20in%20the%20Skill%20Growth%20%26%20Earn%20from%20Home.%20Please%20share%20more%20details%20about%20the%20webinar.%20Thanks!" target="_blank" rel="noopener noreferrer">
-                  <button className="bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 px-8 py-4 rounded-lg text-white font-semibold text-lg transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105">
-                    WhatsApp Now
-                  </button>
-                </a>
-                <button
-                  onClick={() => document.getElementById('about').scrollIntoView({ behavior: 'smooth' })}
-                  className="border-2 border-cyan-500 text-cyan-400 hover:bg-cyan-500 hover:text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300" 
-                >
-                  Learn More
-                </button>
-              </div>
-            </div>
-<div className="flex-1 max-w-md lg:max-w-lg">
-  <div className="relative flex items-center justify-center">
-    {/* Radial gradient glow */}
-    <div className="absolute w-[90%] h-[90%] rounded-full bg-gradient-radial from-pink-500 via-purple-500 to-transparent blur-2xl opacity-70 z-0"></div>
-
-    {/* Image without shadow */}
-    <img
-      src="https://iaakash.com/roohiitkansal/wp-content/uploads/2025/06/Untitled-design-11.png"
-      alt="Webinar Illustration"
-      className="relative w-full h-auto rounded-2xl z-10"
-    />
+  {/* ✅ Gradient Background */}
+  <div className="absolute inset-0 bg-gradient-to-br from-gray-900 via-purple-900/20 to-pink-900/20">
+    <MarqueeBanner />
   </div>
-</div>
 
+  {/* ✅ Floating Animated Blobs */}
+  <div className="absolute inset-0 pointer-events-none">
+    <div className="absolute top-1/4 left-1/4 w-60 sm:w-72 md:w-96 h-60 sm:h-72 md:h-96 bg-purple-500/20 rounded-full blur-3xl animate-pulse"></div>
+    <div className="absolute bottom-1/4 right-1/4 w-60 sm:w-72 md:w-96 h-60 sm:h-72 md:h-96 bg-pink-500/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
+  </div>
 
+  {/* ✅ Main Content */}
+  <div className="relative z-10 container mx-auto px-4 max-w-7xl">
+    <div className="flex flex-col-reverse lg:flex-row items-center justify-between gap-12">
+      
+      {/* ✅ Left Text Content */}
+      <div className="flex-1 text-center lg:text-left">
+        <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6 leading-tight">
+          Unlock Your Potential with Our{" "}
+          <span className="bg-gradient-to-r from-pink-400 to-purple-400 text-transparent bg-clip-text">
+            Exclusive Webinar
+          </span>
+        </h1>
+        <p className="text-gray-300 text-base sm:text-lg md:text-xl mb-8 max-w-xl mx-auto lg:mx-0">
+          Join industry experts for an immersive experience designed to elevate your skills and transform your career trajectory.
+        </p>
 
-          </div>
+        {/* ✅ CTA Buttons */}
+        <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+          <a
+            href="https://wa.me/917007882824?text=Hi!%20I'm%20interested%20in%20the%20Skill%20Growth%20%26%20Earn%20from%20Home.%20Please%20share%20more%20details%20about%20the%20webinar.%20Thanks!"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-white font-semibold text-base sm:text-lg transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105">
+              WhatsApp Now
+            </button>
+          </a>
+
+          <button
+            onClick={() =>
+              document.getElementById("about").scrollIntoView({ behavior: "smooth" })
+            }
+            className="border-2 border-cyan-500 text-cyan-400 hover:bg-cyan-500 hover:text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-semibold text-base sm:text-lg transition-all duration-300"
+          >
+            Learn More
+          </button>
         </div>
-      </section>
+      </div>
+
+      {/* ✅ Right Image Block */}
+      <div className="flex-1 w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg mx-auto">
+        <div className="relative flex items-center justify-center">
+          {/* Background Glow */}
+          <div className="absolute w-[90%] h-[90%] rounded-full bg-gradient-radial from-pink-500 via-purple-500 to-transparent blur-2xl opacity-70 z-0"></div>
+          {/* Image */}
+          <img
+            src="https://iaakash.com/roohiitkansal/wp-content/uploads/2025/06/Untitled-design-11.png"
+            alt="Webinar Illustration"
+            className="relative w-full h-auto rounded-2xl z-10"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 
       {/* Countdown Timer */}
       <section className="py-12 relative bg-gray-800 border-y border-gray-700 overflow-hidden">
@@ -257,8 +277,8 @@ export default function Home() {
     </div>
   </div>
 </section>
+ <div id='what-you-will-learn'><WhatYouWillLearn /></div>
 
-<WhatYouWillLearn />
 
       {/* Video Section */}
       <section className="py-16 bg-black relative overflow-hidden">
@@ -268,7 +288,7 @@ export default function Home() {
 
         <div className="container mx-auto px-4 relative z-10 max-w-7xl text-center">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4">
-            The Next Worth
+            Our Exclusive Webinar Demo
           </h2>
           <p className="text-lg sm:text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
             Your journey from dreams to reality starts here! Come now and reshape your future with the strategies that pay.
@@ -352,7 +372,7 @@ export default function Home() {
     <div className="text-center lg:text-left mb-12">
       <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-3">
         <span className="bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 text-transparent bg-clip-text">
-          The Mind Behind The Next Worth
+          The Mind Behind The Strategies
         </span>
       </h2>
       <p className="text-lg sm:text-xl text-gray-300 font-medium">
@@ -415,7 +435,7 @@ export default function Home() {
 
 {/* Achievements */}
 
-<section className="py-12 relative bg-gray-800 border-y border-gray-700 overflow-hidden">
+<section id="achievements" className="py-12 relative bg-gray-800 border-y border-gray-700 overflow-hidden">
   {/* Radial glow background */}
   <div
     className="absolute -top-32 left-1/2 -translate-x-1/2 w-[600px] h-[600px] rounded-full blur-3xl opacity-30 z-0 pointer-events-none"
@@ -442,7 +462,7 @@ export default function Home() {
       {/* Image 1 + Text */}
       <div className="bg-gray-900/40 p-6 rounded-2xl text-center shadow-lg max-w-sm">
         <img
-          src="public/achievement/achievement1.png"
+          src="/achievement1.jpg"
           alt="Achievement 1"
           className="mx-auto mb-4 rounded-xl"
         />
@@ -455,7 +475,7 @@ export default function Home() {
       {/* Image 2 + Text */}
       <div className="bg-gray-900/40 p-6 rounded-2xl text-center shadow-lg max-w-sm">
         <img
-          src="public/achievement/achievement2.png"
+          src="/achievement2.jpg"
           alt="Achievement 2"
           className="mx-auto mb-4 rounded-xl"
         />
