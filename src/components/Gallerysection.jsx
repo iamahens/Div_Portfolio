@@ -1,12 +1,14 @@
 import React from "react";
 
 const imageUrls = [
-  "https://iaakash.com/roohiitkansal/wp-content/uploads/2025/06/2.png",
-  "https://iaakash.com/roohiitkansal/wp-content/uploads/2025/06/Untitled-design-24.jpg",
-  "https://iaakash.com/roohiitkansal/wp-content/uploads/2025/06/3.png",
-  "https://iaakash.com/roohiitkansal/wp-content/uploads/2025/06/1-1.jpg",
-  "https://iaakash.com/roohiitkansal/wp-content/uploads/2025/06/2-1.jpg",
-  "https://iaakash.com/roohiitkansal/wp-content/uploads/2025/06/2-2.jpg",
+  "/galleryImages/gallery1.png",
+  "/galleryImages/gallery2.png",
+  "/galleryImages/gallery3.png",
+  "/galleryImages/gallery4.png",
+  "/galleryImages/gallery5.png",
+  "/galleryImages/gallery6.png",
+  "/galleryImages/gallery7.png",
+  "/galleryImages/gallery8.png",
 ];
 
 export default function Gallerysection() {
