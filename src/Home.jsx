@@ -298,7 +298,9 @@ export default function Home() {
             <div className="aspect-video bg-gray-800 flex items-center justify-center">
               <div className="text-center">
                 <div className="w-20 h-20 bg-gradient-to-r from-pink-500 to-purple-500 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <div className="w-0 h-0 border-l-[12px] border-l-white border-t-[8px] border-t-transparent border-b-[8px] border-b-transparent ml-1"></div>
+                  <div className="w-0 h-0 border-l-[12px] border-l-white border-t-[8px] border-t-transparent border-b-[8px] border-b-transparent ml-1">
+                 
+                  </div>
                 </div>
                 <p className="text-gray-400">Video Preview Coming Soon</p>
               </div>
@@ -468,7 +470,7 @@ export default function Home() {
         />
         <h3 className="text-xl text-white font-semibold mb-2">Achieved ₹5 lakh Milestone</h3>
         <p className="text-gray-400 text-sm">
-    Earned ₹5 lakh through iDigitalPreneur using trending digital skills and social media marketing.
+ Successfully earned ₹5 lakh with iDigitalPreneur by leveraging affiliate marketing.
         </p>
       </div>
 
@@ -481,7 +483,7 @@ export default function Home() {
         />
         <h3 className="text-xl text-white font-semibold mb-2">Crossed ₹10 Lakh & Earned Awards</h3>
         <p className="text-gray-400 text-sm">
-          Recognized for consistent efforts and leadership in the digital marketing space through iDigitalPreneur.
+          Also Achieved 1 million+ revenue through iDigitalPreneur using affiliate marketing — in just 6 months!
         </p>
       </div>
     </div>
@@ -509,6 +511,33 @@ export default function Home() {
           <Testimonial /> {/* Ensure Testimonial component aligns with this palette */}
         </div>
       </section>
+
+      {/* suitable for */}
+
+<section className="relative py-20 bg-gray-950 overflow-hidden">
+  {/* Gradient Glow */}
+  <div className="absolute -top-32 left-1/2 -translate-x-1/2 w-[600px] h-[600px] bg-gradient-radial from-pink-500 via-purple-500 to-transparent blur-3xl opacity-30 pointer-events-none"></div>
+
+  <div className="relative z-10 container mx-auto px-4 max-w-5xl text-center">
+    <h2 className="text-3xl sm:text-4xl font-bold text-white mb-10">
+      💬 Suitable For?
+    </h2>
+
+    {/* Tags */}
+    <div className="flex flex-wrap justify-center gap-4 mb-12">
+      {["Students", "Working Professionals", "Freelancers", "Parents", "Dreamers"].map((item, idx) => (
+        <span
+          key={idx}
+          className="px-6 py-2 border border-purple-500 text-purple-300 rounded-full text-base sm:text-lg font-medium bg-white/5 backdrop-blur-md hover:bg-purple-600/20 transition duration-300"
+        >
+          {item}
+        </span>
+      ))}
+    </div>
+
+   
+  </div>
+</section>
 
       {/* FAQs */}
       <section id="faqs" className="py-16 bg-gradient-to-br from-gray-900 to-gray-800 relative overflow-hidden">

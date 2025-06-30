@@ -51,8 +51,8 @@ export default function WhatYouWillLearn() {
         },
         {
           icon: "💡",
-          title: "Website Design",
-          desc: "Your website is the face of your business, which is why you need to invest as much energy into it as you do into the look and feel.",
+          title: "Communicate with Customers",
+          desc: "My webinar helps you connect, engage, and communicate better with customers.",
         },
         {
           icon: "📲",

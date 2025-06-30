@@ -14,8 +14,8 @@ export default function Footer() {
             Work From Home Strategies
           </h2>
           <p className="text-gray-400 text-sm sm:text-base leading-relaxed">
-            Join us for a transformative webinar crafted to help you unlock the true power of remote work.
-Whether you're just starting out or looking for a breakthrough, this session will equip you with practical digital skills and strategies to achieve real financial independence — no prior experience required.
+            Under Divyanshu Verma’s mentorship, learned digital skills and earned from
+home, gaining financial freedom and flexibility while building a successful online income stream.
           </p>
         </div>
 
@@ -33,7 +33,7 @@ Whether you're just starting out or looking for a breakthrough, this session wil
             </a>
             
             <a
-              href="https://youtube.com"
+              href="https://www.instagram.com/hustlewithdivyanshu?igsh=MWZnZWRscTFmYzlzcw%3D%3D&utm_source=qr"
               target="_blank"
               rel="noopener noreferrer"
               className="text-red-500 hover:text-red-400 transition text-xl"
@@ -41,7 +41,7 @@ Whether you're just starting out or looking for a breakthrough, this session wil
               <FaYoutube />
             </a>
             <a
-              href="mailto:info@thenextworth.com"
+              href="https://www.instagram.com/hustlewithdivyanshu?igsh=MWZnZWRscTFmYzlzcw%3D%3D&utm_source=qr"
               className="text-cyan-400 hover:text-cyan-300 transition text-xl"
             >
               <FaEnvelope />
