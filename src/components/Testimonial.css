@@ -1,0 +1,16 @@
+.custom-bullet {
+  width: 14px;
+  height: 14px;
+  background: #e2e8f0;
+  border-radius: 50%;
+  margin: 0 6px;
+  opacity: 0.6;
+  transition: all 0.3s ease-in-out;
+}
+
+.custom-bullet-active {
+  background: linear-gradient(135deg, #a855f7, #ec4899);
+  box-shadow: 0 0 10px rgba(236, 72, 153, 0.8);
+  opacity: 1;
+  transform: scale(1.4);
+}
