@@ -23,7 +23,7 @@ export default function WhatYouWillLearn() {
 
   {/* 🌟 Section Content */}
   <div className="relative z-10 max-w-6xl mx-auto px-4">
-    <h2 className="text-3xl sm:text-4xl font-bold text-white text-center mb-12">
+    <h2 className="text-3xl sm:text-5xl font-bold bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 text-transparent bg-clip-text  text-center mb-12">
       What Will You Learn?
     </h2>
 
