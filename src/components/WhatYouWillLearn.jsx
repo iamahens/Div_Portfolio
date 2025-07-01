@@ -32,7 +32,7 @@ export default function WhatYouWillLearn() {
         {
           icon: "🚀",
           title: "Work From Home",
-          desc: "iDigitalPreneur offers work from home opportunities to learn skills and earn using social media.",
+          desc: "IDigitalPreneur offers work from home opportunities to learn skills and earn using social media.",
         },
         {
           icon: "💻",

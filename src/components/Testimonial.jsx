@@ -44,7 +44,8 @@ const Testimonial = () => {
       id: 8,
       image: "/image8.jpg", // Add your eighth image URL here
       alt: "Client testimonial 8"
-    }
+    },
+     
   ];
 
   // Auto-slide functionality
@@ -71,55 +72,59 @@ const Testimonial = () => {
   };
 
   return (
-    <div className="relative w-full max-w-6xl mx-auto p-6">
-      {/* Slider Container */}
-      <div className="relative overflow-hidden rounded-lg">
-        <div 
-          className="flex transition-transform duration-500 ease-in-out"
-          style={{ transform: `translateX(-${currentIndex * (100 / 3)}%)` }}
+    <div className="relative w-full max-w-6xl mx-auto p-4 sm:p-6">
+  {/* Slider Container */}
+  <div className="relative overflow-hidden rounded-lg">
+    <div 
+      className="flex transition-transform duration-500 ease-in-out"
+      style={{ transform: `translateX(-${currentIndex * 100}%)` }} // full slide on mobile
+    >
+      {testimonials.map((testimonial) => (
+        <div
+          key={testimonial.id}
+          className="w-full sm:w-1/2 md:w-1/3 flex-shrink-0 px-2 sm:px-3"
         >
-          {testimonials.map((testimonial) => (
-            <div key={testimonial.id} className="w-1/3 flex-shrink-0 px-3">
-              <div className="bg-gray-100 rounded-lg p-4">
-                <img 
-                  src={testimonial.image} 
-                  alt={testimonial.alt}
-                  className="w-full h-auto rounded-lg"
-                />
-              </div>
-            </div>
-          ))}
+          <div className="bg-gray-100 rounded-lg p-4 sm:p-6">
+            <img 
+              src={testimonial.image} 
+              alt={testimonial.alt}
+              className="w-full h-auto rounded-lg"
+            />
+          </div>
         </div>
-
-        {/* Navigation Arrows */}
-        <button 
-          onClick={prevSlide}
-          className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-white shadow-lg rounded-full p-2 hover:bg-gray-50 z-10"
-        >
-          <ChevronLeft className="w-6 h-6 text-gray-600" />
-        </button>
-        
-        <button 
-          onClick={nextSlide}
-          className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-white shadow-lg rounded-full p-2 hover:bg-gray-50 z-10"
-        >
-          <ChevronRight className="w-6 h-6 text-gray-600" />
-        </button>
-      </div>
-
-      {/* Dots Indicator */}
-      <div className="flex justify-center mt-4 space-x-2">
-        {Array.from({ length: testimonials.length - 2 }).map((_, index) => (
-          <button
-            key={index}
-            onClick={() => setCurrentIndex(index)}
-            className={`w-3 h-3 rounded-full transition-colors duration-200 ${
-              index === currentIndex ? 'bg-blue-600' : 'bg-gray-300'
-            }`}
-          />
-        ))}
-      </div>
+      ))}
     </div>
+
+    {/* Navigation Arrows */}
+    <button 
+      onClick={prevSlide}
+      className="absolute left-2 sm:left-4 top-1/2 transform -translate-y-1/2 bg-white shadow-lg rounded-full p-1 sm:p-2 hover:bg-gray-50 z-10"
+    >
+      <ChevronLeft className="w-5 h-5 sm:w-6 sm:h-6 text-gray-600" />
+    </button>
+    
+    <button 
+      onClick={nextSlide}
+      className="absolute right-2 sm:right-4 top-1/2 transform -translate-y-1/2 bg-white shadow-lg rounded-full p-1 sm:p-2 hover:bg-gray-50 z-10"
+    >
+      <ChevronRight className="w-5 h-5 sm:w-6 sm:h-6 text-gray-600" />
+    </button>
+  </div>
+
+  {/* Dots Indicator */}
+  <div className="flex justify-center mt-4 space-x-2">
+    {Array.from({ length: testimonials.length }).map((_, index) => (
+      <button
+        key={index}
+        onClick={() => setCurrentIndex(index)}
+        className={`w-3 h-3 rounded-full transition-colors duration-200 ${
+          index === currentIndex ? 'bg-blue-600' : 'bg-gray-300'
+        }`}
+      />
+    ))}
+  </div>
+</div>
+
   );
 };
 

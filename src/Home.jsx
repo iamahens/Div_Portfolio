@@ -94,7 +94,7 @@ export default function Home() {
     },
     {
       question: "05. How soon can I start earning after the workshop?",
-      answer: "Some people earn within a week, others take a month—depends on action."
+      answer: "Some people earn within a week, others take a month depends on action."
     },
     {
       question: "06. Will I be guided step-by-step?",
@@ -106,18 +106,18 @@ export default function Home() {
     {
       icon: <Users className="w-8 h-8 text-pink-400" />, 
       title: "Training",
-      description: "Train 1,000+ people to earn money through practical skills, mentorship, and real opportunities—empowering financial freedom and long-term growth."
+      description: "Trained 1,000+ people to earn money through practical skills, mentorship, and real opportunities empowering financial freedom and long-term growth."
     }, 
 
     {
       icon: <User className="w-8 h-8 text-pink-400" />, 
       title: "Webinar",
-      description: "Your website is the face of your business—invest in it as much as you do in your branding, design, and first impressions."
+      description: "Your website is the face of your business invest in it as much as you do in your branding, design, and first impressions."
     },
     {
       icon: <Target className="w-8 h-8 text-pink-400" />,
       title: "Work from Home",
-      description: "iDigitalPreneur offers work from home opportunities to learn skills and earn using social media."
+      description: "IDigitalPreneur offers work from home opportunities to learn skills and earn using social media."
     }
   ];
 
@@ -406,7 +406,7 @@ export default function Home() {
         </span>
       </h2>
       <p className="text-lg sm:text-xl text-gray-300 font-medium">
-        Learn from someone who's lived it — not just read about it.
+        Learn from someone who's lived it  not just read about it.
       </p>
     </div>
 
@@ -440,10 +440,10 @@ export default function Home() {
 </span>. By the <span className="font-semibold text-white">age of 20</span>, he had already empowered over <span className="font-semibold text-white">1,000 </span> students to start earning online and take control of their financial future.
         </p>
         <p className="text-base sm:text-lg text-gray-400 leading-relaxed mb-4">
-           In just 10 months he generated <span className="font-semibold text-white"> ₹2.5 million in revenue</span> — all by sharing real, <span className="text-cyan-300 font-semibold">practical skills that deliver results</span>.
+           In just 10 months he generated <span className="font-semibold text-white"> ₹2.5 million in revenue</span>  all by sharing real, <span className="text-cyan-300 font-semibold">practical skills that deliver results</span>.
         </p>
         <p className="text-base sm:text-lg text-gray-400 leading-relaxed">
-          This is not about theories or empty promises. <span className="text-white font-semibold">t’s about raw experience, proven strategies, and results that speak for themselves.</span> That’s what Divyanshu delivers — raw, real, and truly effective.
+          This is not about theories or empty promises. <span className="text-white font-semibold">It’s about raw experience, proven strategies, and results that speak for themselves.</span> That’s what Divyanshu delivers  raw, real, and truly effective.
         </p>
 
         {/* Badges */}
@@ -498,7 +498,7 @@ export default function Home() {
         />
         <h3 className="text-xl text-white font-semibold mb-2">Achieved ₹5 lakh Milestone</h3>
         <p className="text-gray-400 text-sm">
- Successfully earned ₹5 lakh with iDigitalPreneur by leveraging affiliate marketing.
+ Successfully earned ₹5 lakh with IDigitalPreneur by leveraging affiliate marketing.
         </p>
       </div>
 
@@ -511,7 +511,7 @@ export default function Home() {
         />
         <h3 className="text-xl text-white font-semibold mb-2">Crossed ₹10 Lakh & Earned Awards</h3>
         <p className="text-gray-400 text-sm">
-          Also Achieved 1 million+ revenue through iDigitalPreneur using affiliate marketing — in just 6 months!
+          Also Achieved 1 million+ revenue through IDigitalPreneur using affiliate marketing  in just 6 months!
         </p>
       </div>
     </div>
