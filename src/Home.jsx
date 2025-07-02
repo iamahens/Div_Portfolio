@@ -436,11 +436,11 @@ export default function Home() {
         </h3>
 
         <p className="text-base sm:text-lg text-gray-300 mb-4 leading-relaxed">
-          <span className="font-semibold text-white"> Divyanshu Verma</span> is an internet personality and <span className="font-semibold text-white">skill growth expert</span>, known for building multiple successful income streams<span className="font-semibold text-white"> and achieving consistent monthly earnings at a young age
-</span>. By the <span className="font-semibold text-white">age of 20</span>, he had already empowered over <span className="font-semibold text-white">1,000 </span> students to start earning online and take control of their financial future.
+          <span className="font-semibold text-white"> Divyanshu Verma</span> is an internet personality and <span className="font-semibold text-white">entrepreneur</span>, known for building multiple successful income streams <span className="font-semibold text-white"> and generating consistent 6-figure monthly earnings by the age of 22.
+</span>  <span className="font-semibold text-white">By this age,</span> he had already empowered over <span className="font-semibold text-white">1,000 </span> students to start earning online and take control of their financial future.
         </p>
         <p className="text-base sm:text-lg text-gray-400 leading-relaxed mb-4">
-           In just 10 months he generated <span className="font-semibold text-white"> ₹2.5 million in revenue</span>  all by sharing real, <span className="text-cyan-300 font-semibold">practical skills that deliver results</span>.
+           In just 10 months he generated <span className="font-semibold text-white"> ₹3 million in revenue, with ₹2.5 million in profit</span>  all by sharing real, <span className="text-cyan-300 font-semibold">practical skills that deliver results</span>.
         </p>
         <p className="text-base sm:text-lg text-gray-400 leading-relaxed">
           This is not about theories or empty promises. <span className="text-white font-semibold">It’s about raw experience, proven strategies, and results that speak for themselves.</span> That’s what Divyanshu delivers  raw, real, and truly effective.
