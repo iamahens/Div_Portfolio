@@ -112,7 +112,7 @@ export default function Home() {
     {
       icon: <User className="w-8 h-8 text-pink-400" />, 
       title: "Webinar",
-      description: "Your website is the face of your business invest in it as much as you do in your branding, design, and first impressions."
+      description: "You will get to know how  you can make money using social media and learn high paying skills as well."
     },
     {
       icon: <Target className="w-8 h-8 text-pink-400" />,
@@ -322,7 +322,7 @@ export default function Home() {
 
     {/* Tags */}
     <div className="flex flex-wrap justify-center gap-4 mb-12">
-      {["Students", "Working Professionals", "Freelancers", "Parents", "Dreamers"].map((item, idx) => (
+      {["Students", "Working Professionals", "Freelancers", "Housewife", "Dreamers"].map((item, idx) => (
         <span
           key={idx}
           className="px-6 py-2 border border-purple-500 text-purple-300 rounded-full text-base sm:text-lg font-medium bg-white/5 backdrop-blur-md hover:bg-purple-600/20 transition duration-300"

@@ -15,6 +15,8 @@ const testimonials = [
   { id: 6, image: "/image6.jpg", alt: "Client testimonial 6" },
   { id: 7, image: "/image7.jpg", alt: "Client testimonial 7" },
   { id: 8, image: "/image8.jpg", alt: "Client testimonial 8" },
+  { id: 9, image: "/image9.jpeg", alt: "Client testimonial 9" },
+  { id: 10, image: "/image10.jpeg", alt: "Client testimonial 10" },
 ];
 
 const Testimonial = () => {
