@@ -322,7 +322,7 @@ export default function Home() {
 
     {/* Tags */}
     <div className="flex flex-wrap justify-center gap-4 mb-12">
-      {["Students", "Working Professionals", "businessman", "Housewife", "Dreamers"].map((item, idx) => (
+      {["Students", "Working Professionals", "Businessman", "Housewife", "Dreamers"].map((item, idx) => (
         <span
           key={idx}
           className="px-6 py-2 border border-purple-500 text-purple-300 rounded-full text-base sm:text-lg font-medium bg-white/5 backdrop-blur-md hover:bg-purple-600/20 transition duration-300"
