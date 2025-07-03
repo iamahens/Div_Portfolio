@@ -5,7 +5,7 @@ import Testimonial from './components/Testimonial'; // Assuming these components
 import Footer from './components/Footer'; // Assuming this component exists
 import MarqueeBanner from './components/MarqueeBanner';
 import WhatYouWillLearn from './components/WhatYouWillLearn'; // Assuming this component exists
-
+import WhatsAppButton from './components/WhatsAppButton';
 function GallerySection() {
   const images = [
     "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400&h=300&fit=crop",
@@ -625,6 +625,7 @@ export default function Home() {
 
       {/* Footer */}
      <Footer />
+      <WhatsAppButton />
     </div>
   );
 }
